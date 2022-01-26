@@ -29,7 +29,7 @@ django_conventions uses **introspection** the infer your views **files and class
 
 **my_project/urls.py**
 ```python
-from django.conf.urls import patterns, include, url
+from django.conf.urls import patterns, include, re_path
 from django_conventions import UrlsManager
 
 # You have to specify your views module

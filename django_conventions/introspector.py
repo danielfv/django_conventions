@@ -1,6 +1,6 @@
 import pkgutil
 
-from django.conf.urls import re_path as djangourl
+from django.urls import include, re_path as djangourl
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
 from .utils import is_valid_view
